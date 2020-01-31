@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{187576E0-9C24-E073-24B7-285AC7AF562E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/VertexColors.shader">
+    <Files>
+      <File FileName="Assets/HexCoordinatesDrawer.cs" Line="17" Column="1" />
+      <File FileName="Assets/HexGrid.cs" />
+      <File FileName="Assets/HexMesh.cs" />
+      <File FileName="Assets/HexMetrics.cs" />
+      <File FileName="Assets/HexCoordinates.cs" />
+      <File FileName="Assets/HexCell.cs" Line="10" Column="22" />
+      <File FileName="Temp/Compiled-Standard.shader" Line="1" Column="1" />
+      <File FileName="Assets/VertexColors.shader" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hex_map" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="VertexColors.shader" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="677f2382-0c59-438b-ba87-e2da18aba9b1" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
