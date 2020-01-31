@@ -41,8 +41,8 @@ public class HexGrid : MonoBehaviour
         gridCanvas = GetComponentInChildren<Canvas>();
 
 
-    //创建六边形，铺设地图
-    cells = new HexCell[height * width];
+        //创建六边形，铺设地图
+        cells = new HexCell[height * width];
 
         for (int z = 0, i = 0; z < height; z++)
         {
@@ -103,12 +103,6 @@ public class HexGrid : MonoBehaviour
             TouchCell(hit.point);
         }
     }
-
-    //void TouchCell(Vector3 position)
-    //{
-    //    position = transform.InverseTransformPoint(position);
-    //    Debug.Log("touched at " + position);
-    //}
 
     //鼠标触摸网格方法
     public void TouchCell(Vector3 position)

@@ -1,13 +1,12 @@
 ﻿<Properties StartupConfiguration="{187576E0-9C24-E073-24B7-285AC7AF562E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/VertexColors.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HexCoordinatesDrawer.cs">
     <Files>
-      <File FileName="Assets/HexCoordinatesDrawer.cs" Line="17" Column="1" />
-      <File FileName="Assets/HexGrid.cs" />
-      <File FileName="Assets/HexMesh.cs" />
-      <File FileName="Assets/HexMetrics.cs" />
-      <File FileName="Assets/HexCoordinates.cs" />
-      <File FileName="Assets/HexCell.cs" Line="10" Column="22" />
-      <File FileName="Temp/Compiled-Standard.shader" Line="1" Column="1" />
+      <File FileName="Assets/HexCoordinatesDrawer.cs" Line="17" Column="47" />
+      <File FileName="Assets/HexGrid.cs" Line="105" Column="6" />
+      <File FileName="Assets/HexMesh.cs" Line="9" Column="25" />
+      <File FileName="Assets/HexMetrics.cs" Line="7" Column="22" />
+      <File FileName="Assets/HexCoordinates.cs" Line="10" Column="21" />
+      <File FileName="Assets/HexCell.cs" Line="8" Column="39" />
       <File FileName="Assets/VertexColors.shader" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -15,7 +14,7 @@
         <State name="__root__">
           <Node name="Hex_map" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="VertexColors.shader" selected="True" />
+              <Node name="HexCoordinatesDrawer.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -24,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="677f2382-0c59-438b-ba87-e2da18aba9b1" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="14307e1d-c365-4295-8c44-8373b4a0a9ab" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
