@@ -1,0 +1,97 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public static class HexMetrics
+{
+    //单元格高度梯度
+    public const float elevationStep = 4f;
+
+    //定义单元格有几个梯度
+    public const int terracesPerSlope = 3;
+    public const int terraceSteps = terracesPerSlope * 2 + 1;
+
+
+    //定义六边形的外接圆和内切圆半径
+    public const float outerRadius = 10f;
+    public const float innerRadius = outerRadius * 0.866025404f;
+
+    //定义六边形六个角相对于中心的坐标
+    public static Vector3[] corners = {
+        new Vector3(0f, 0f, outerRadius),
+        new Vector3(innerRadius, 0f, 0.5f * outerRadius),
+        new Vector3(innerRadius, 0f, -0.5f * outerRadius),
+        new Vector3(0f, 0f, -outerRadius),
+        new Vector3(-innerRadius, 0f, -0.5f * outerRadius),
+        new Vector3(-innerRadius, 0f, 0.5f * outerRadius),
+        new Vector3(0f, 0f, outerRadius)
+    };
+
+    //邻近单元格颜色混合时的混合系数
+    public const float solidFactor = 0.75f;
+    public const float blendFactor = 1f - solidFactor;
+
+    public static Vector3 GetFirstCorner(HexDirection direction)
+    {
+        return corners[(int)direction];
+    }
+
+    public static Vector3 GetSecondCorner(HexDirection direction)
+    {
+        return corners[(int)direction + 1];
+    }
+
+    public static Vector3 GetFirstSolidCorner(HexDirection direction)
+    {
+        return corners[(int)direction] * solidFactor;
+    }
+
+    public static Vector3 GetSecondSolidCorner(HexDirection direction)
+    {
+        return corners[(int)direction + 1] * solidFactor;
+    }
+
+    public static Vector3 GetBridge(HexDirection direction)
+    {
+        return (corners[(int)direction] + corners[(int)direction + 1]) *
+            blendFactor;
+    }
+
+    //高度梯度变化，分阶段
+    public const float horizontalTerraceStepSize = 1f / terraceSteps;
+    public const float verticalTerraceStepSize = 1f / (terracesPerSlope + 1);
+
+    public static Vector3 TerraceLerp(Vector3 a, Vector3 b, int step)
+    {
+        float h = step * HexMetrics.horizontalTerraceStepSize;
+        a.x += (b.x - a.x) * h;
+        a.z += (b.z - a.z) * h;
+        float v = ((step + 1) / 2) * HexMetrics.verticalTerraceStepSize;
+        a.y += (b.y - a.y) * v;
+        return a;
+    }
+
+    //为颜色梯度变化提供方法
+    public static Color TerraceLerp(Color a, Color b, int step)
+    {
+        float h = step * HexMetrics.horizontalTerraceStepSize;
+        return Color.Lerp(a, b, h);
+    }
+
+
+
+    public static HexEdgeType GetEdgeType(int elevation1, int elevation2)
+    {
+        if (elevation1 == elevation2)
+        {
+            return HexEdgeType.Flat;
+        }
+        int delta = elevation2 - elevation1;
+        if (delta == 1 || delta == -1)
+        {
+            return HexEdgeType.Slope;
+        }
+        return HexEdgeType.Cliff;
+    }
+
+}
