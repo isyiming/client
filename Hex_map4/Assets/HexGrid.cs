@@ -29,12 +29,12 @@ public class HexGrid : MonoBehaviour
     public Color defaultColor = Color.white;
     public Color touchedColor = Color.magenta;
 
-    //噪声
     public Texture2D noiseSource;
-
 
     void Awake()
     {
+        HexMetrics.noiseSource = noiseSource;
+
         //画布
         gridCanvas = GetComponentInChildren<Canvas>();
 
@@ -43,10 +43,6 @@ public class HexGrid : MonoBehaviour
 
         //画布
         gridCanvas = GetComponentInChildren<Canvas>();
-
-        //引入噪声
-        HexMetrics.noiseSource = noiseSource;
-
 
 
         //创建六边形，铺设地图
@@ -61,7 +57,6 @@ public class HexGrid : MonoBehaviour
         }
     }
 
-    //分配噪声纹理
     void OnEnable()
     {
         HexMetrics.noiseSource = noiseSource;
@@ -118,6 +113,9 @@ public class HexGrid : MonoBehaviour
 
         //创建的最后添加显示坐标的ui
         cell.uiRect = label.rectTransform;
+
+        cell.Elevation = 0;
+
 
     }
 

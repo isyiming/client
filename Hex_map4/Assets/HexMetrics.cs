@@ -5,7 +5,7 @@ using UnityEngine;
 public static class HexMetrics
 {
     //单元格高度梯度
-    public const float elevationStep = 4f;
+    public const float elevationStep = 3f;
 
     //定义单元格有几个梯度
     public const int terracesPerSlope = 3;
@@ -28,17 +28,17 @@ public static class HexMetrics
     };
 
     //邻近单元格颜色混合时的混合系数
-    public const float solidFactor = 0.75f;
+    public const float solidFactor = 0.8f;
     public const float blendFactor = 1f - solidFactor;
 
-    //引入的噪声
-    public static Texture2D noiseSource;
 
-    //对某位置引入噪声
-    public static Vector4 SampleNoise(Vector3 position)
-    {
-        return noiseSource.GetPixelBilinear(position.x, position.z);
-    }
+    //噪声
+    public static Texture2D noiseSource;
+    public const float cellPerturbStrength = 4f;
+    public const float noiseScale = 0.003f;
+    public const float elevationPerturbStrength = 1.5f;
+
+
 
     public static Vector3 GetFirstCorner(HexDirection direction)
     {
@@ -103,4 +103,11 @@ public static class HexMetrics
         return HexEdgeType.Cliff;
     }
 
+    public static Vector4 SampleNoise(Vector3 position)
+    {
+        return noiseSource.GetPixelBilinear(
+            position.x * noiseScale,
+            position.z * noiseScale
+        );
+    }
 }

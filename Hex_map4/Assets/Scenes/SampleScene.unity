@@ -638,6 +638,11 @@ PrefabInstance:
       propertyPath: cellPrefab
       value: 
       objectReference: {fileID: 1772923678}
+    - target: {fileID: 6913285777000347258, guid: 70eb7e15408d24b7a8eb21cec6d7aef4,
+        type: 3}
+      propertyPath: noiseSource
+      value: 
+      objectReference: {fileID: 2800000, guid: 6cc0c737acce44ebf8a0d7b070d54bdd, type: 3}
     - target: {fileID: 6913285777000347259, guid: 70eb7e15408d24b7a8eb21cec6d7aef4,
         type: 3}
       propertyPath: m_Name

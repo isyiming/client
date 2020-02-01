@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{955AE4CD-BE43-89A8-9240-870028F958C8}</ProjectGuid>
+    <ProjectGuid>{5DB23CC6-F047-92B4-C833-726CA0B969F5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EdgeVertices.cs" />
     <Compile Include="Assets\HexCell.cs" />
     <Compile Include="Assets\HexCoordinates.cs" />
     <Compile Include="Assets\HexCoordinatesDrawer.cs" />
@@ -74,31 +75,31 @@
     <Compile Include="Assets\HexMetrics.cs" />
     <None Include="Assets\VertexColors.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map4/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map3的副本/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map4/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map3的副本/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map4/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map3的副本/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map4/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map3的副本/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map4/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map3的副本/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map4/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map3的副本/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map4/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map3的副本/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map4/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map3的副本/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map4/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/ming/本地文稿/GitHub/HellowUnity/client/Hex_map3的副本/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.19f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
