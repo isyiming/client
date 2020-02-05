@@ -54,6 +54,7 @@ public class HexMapEditor : MonoBehaviour
 			//如果上一个点击的单元格存在并且当前单元格和上一个不是同一个
 			if (previousCell && previousCell != currentCell)
 			{
+				print("监测到鼠标拖动");
 				ValidateDrag(currentCell);
 			}
 			else
@@ -93,22 +94,23 @@ public class HexMapEditor : MonoBehaviour
 
 	void EditCell(HexCell cell)
 	{
+		print("编辑");
+
 		cell.Color = activeColor;
 
-		cell.Elevation = activeElevation;
+        //cell.Elevation = 2;
 
-		//if (applyWaterLevel)
-		//{
-			cell.WaterLevel = activeWaterLevel;
-		//}
+        //if (applyWaterLevel)
+        //{
+        //cell.WaterLevel = activeWaterLevel;
+        //}
 
-		riverMode = OptionalToggle.No;
-		roadMode = OptionalToggle.Yes;
+        riverMode = OptionalToggle.Yes;
+		roadMode = OptionalToggle.No;
 
 		//编辑河流,如果先前有河流，移除原本河流
 		if (riverMode == OptionalToggle.No)
 		{
-			print("无法编辑河流");
 			cell.RemoveRiver();
 		}
 		//编辑道路,如果先前有，移除原本
@@ -118,6 +120,8 @@ public class HexMapEditor : MonoBehaviour
 		}
 		if (isDrag)
 		{
+			print("存在阻力");
+
 			HexCell otherCell = cell.GetNeighbor(dragDirection.Opposite());
 			if (otherCell)
 			{

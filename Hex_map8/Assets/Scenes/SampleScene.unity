@@ -235,7 +235,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 9
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -414,6 +414,11 @@ PrefabInstance:
       propertyPath: waterShore
       value: 
       objectReference: {fileID: 468028388}
+    - target: {fileID: -427217247633855419, guid: 97d54b094a1f34226a8844ecd89ec3fe,
+        type: 3}
+      propertyPath: estuaries
+      value: 
+      objectReference: {fileID: 1181060320}
     - target: {fileID: 716678926195554045, guid: 97d54b094a1f34226a8844ecd89ec3fe,
         type: 3}
       propertyPath: m_RootOrder
@@ -633,6 +638,18 @@ MonoBehaviour:
 --- !u!114 &1181060319 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 929175364793439922, guid: 97d54b094a1f34226a8844ecd89ec3fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1181060316}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f892579daac14b5fbd1feab790badf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1181060320 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2713476104657182191, guid: 97d54b094a1f34226a8844ecd89ec3fe,
     type: 3}
   m_PrefabInstance: {fileID: 1181060316}
   m_PrefabAsset: {fileID: 0}
@@ -1073,6 +1090,21 @@ PrefabInstance:
       propertyPath: defaultColor.r
       value: 0.7607844
       objectReference: {fileID: 0}
+    - target: {fileID: 6913285777000347258, guid: 70eb7e15408d24b7a8eb21cec6d7aef4,
+        type: 3}
+      propertyPath: touchedColor.r
+      value: 0.8705883
+      objectReference: {fileID: 0}
+    - target: {fileID: 6913285777000347258, guid: 70eb7e15408d24b7a8eb21cec6d7aef4,
+        type: 3}
+      propertyPath: touchedColor.g
+      value: 0.8705883
+      objectReference: {fileID: 0}
+    - target: {fileID: 6913285777000347258, guid: 70eb7e15408d24b7a8eb21cec6d7aef4,
+        type: 3}
+      propertyPath: touchedColor.b
+      value: 0.8705883
+      objectReference: {fileID: 0}
     - target: {fileID: 6913285777000347259, guid: 70eb7e15408d24b7a8eb21cec6d7aef4,
         type: 3}
       propertyPath: m_Name
@@ -1116,6 +1148,7 @@ MonoBehaviour:
   useCollider: 1
   useColors: 1
   useUVCoordinates: 0
+  useUV2Coordinates: 0
 --- !u!23 &6913285776808892550
 MeshRenderer:
   m_ObjectHideFlags: 0

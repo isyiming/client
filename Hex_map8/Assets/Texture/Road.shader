@@ -30,9 +30,26 @@
 		half _Metallic;
 		fixed4 _Color;
 
+        float River (float2 riverUV, sampler2D noiseTex) {
+	        float2 uv = riverUV;
+	        uv.x = uv.x * 0.0625 + _Time.y * 0.005;
+	        uv.y -= _Time.y * 0.25;
+	        float4 noise = tex2D(noiseTex, uv);
+
+	        float2 uv2 = riverUV;
+	        uv2.x = uv2.x * 0.0625 - _Time.y * 0.0052;
+	        uv2.y -= _Time.y * 0.23;
+	        float4 noise2 = tex2D(noiseTex, uv2);
+	
+	        return noise.x * noise2.w;
+        }
+
 		void surf (Input IN, inout SurfaceOutputStandard o) {
+			float river = River(IN.uv_MainTex, _MainTex);
+
 			float4 noise = tex2D(_MainTex, IN.worldPos.xz * 0.025);
-			fixed4 c = _Color * (noise.y * 0.75 + 0.25);
+
+			fixed4 c = saturate(_Color + river);
 			float blend = IN.uv_MainTex.x;
 			blend *= noise.x + 0.5;
 			blend = smoothstep(0.4, 0.7, blend);

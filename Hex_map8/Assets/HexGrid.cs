@@ -102,8 +102,8 @@ public class HexGrid : MonoBehaviour
         float red = Random.Range(0.0f, 1.0f);
         float green = Random.Range(0.0f, 1.0f);
         float blue = Random.Range(0.0f, 1.0f);
-        cell.color = defaultColor;
-        //cell.color = new Color(red, green, blue);
+        //cell.color = defaultColor;
+        cell.color = new Color(red, green, blue);
 
         //记录邻近单元格
         if (x > 0)
@@ -142,8 +142,8 @@ public class HexGrid : MonoBehaviour
         cell.uiRect = label.rectTransform;
 
         //单元格的高度,随机高度
-        //cell.Elevation = 0;
-        cell.Elevation = (int)(Random.Range(0.0f, 1.0f)*5);
+        //cell.Elevation = 2;
+        cell.Elevation = (int)(Random.Range(0.0f, 1.0f) * 5);
 
         //单元格水位
         cell.WaterLevel = 2;

@@ -45,7 +45,8 @@
 				lerp(noise2.x, noise2.y, blendWave);
 			waves = smoothstep(0.75, 2, waves);
 
-			fixed4 c = saturate(_Color + waves);
+			//fixed4 c = saturate(_Color + waves);//给水加了颜色后，整个水面都不透明了
+			fixed4 c = saturate(  waves);
 			o.Albedo = c.rgb;
 			o.Metallic = _Metallic;
 			o.Smoothness = _Glossiness;

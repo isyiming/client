@@ -77,6 +77,7 @@
     <Compile Include="Assets\HexMetrics.cs" />
     <None Include="Assets\Texture\WaterShore.shader" />
     <None Include="Assets\Texture\Water.shader" />
+    <None Include="Assets\Texture\Estuaries.shader" />
     <None Include="Assets\Texture\Road.shader" />
     <None Include="Assets\Texture\River.shader" />
     <None Include="Assets\Texture\VertexColors.shader" />
