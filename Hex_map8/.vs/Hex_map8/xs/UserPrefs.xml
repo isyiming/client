@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{F96A1C28-D002-E7AB-A056-E82D1D91572D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HexGridChunk.cs">
+    <Files>
+      <File FileName="Assets/HexGridChunk.cs" Line="142" Column="70" IsPinned="True" />
+      <File FileName="Assets/HexCell.cs" />
+      <File FileName="Assets/HexMapEditor.cs" />
+      <File FileName="Assets/HexGrid.cs" />
+      <File FileName="Assets/HexMetrics.cs" />
+      <File FileName="Assets/HexMesh.cs" />
+      <File FileName="Assets/Texture/Water.shader" />
+      <File FileName="Assets/Texture/WaterShore.shader" />
+      <File FileName="Assets/Texture/Road.shader" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hex_map8" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Texture" expanded="True" />
+              <Node name="HexGridChunk.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="11c840c4-363a-4e31-b966-92d83b3102af" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

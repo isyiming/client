@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -26,7 +26,7 @@ public class HexGrid : MonoBehaviour
     //定义六边形的公共宽度 高度 和单位预制件
     public int chunkCountX = 4, chunkCountZ = 3;
 
-    int cellCountX, cellCountZ;
+    public static int cellCountX, cellCountZ;
 
     public HexGridChunk chunkPrefab;
 

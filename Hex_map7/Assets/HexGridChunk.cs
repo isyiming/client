@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
 
@@ -23,7 +23,7 @@ public class HexGridChunk : MonoBehaviour
     {
         //检查当前chunk下有多少个子物体，如果超过4个，说明没有cell，那么不进行三角剖分
         Transform[] father = GetComponentsInChildren<Transform>();
-        if (father.Length > 4)
+        if (father.Length > HexGrid.cellCountX * HexGrid.cellCountZ)
         {
             Triangulate();
         }
@@ -34,7 +34,7 @@ public class HexGridChunk : MonoBehaviour
     {
         //检查当前chunk下有多少个子物体，如果超过4个，说明没有cell，那么不进行三角剖分
         Transform[] father = GetComponentsInChildren<Transform>();
-        if (father.Length>4)
+        if (father.Length>HexGrid.cellCountX * HexGrid.cellCountZ)
         {
             Triangulate();
         }

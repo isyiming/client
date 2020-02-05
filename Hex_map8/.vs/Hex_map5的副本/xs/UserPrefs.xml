@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{84D3B89E-6CAC-D3B3-FF0D-AB78329AEC79}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HexMetrics.cs">
+    <Files>
+      <File FileName="Assets/HexCell.cs" Line="296" Column="6" />
+      <File FileName="Assets/HexGridChunk.cs" Line="185" Column="17" />
+      <File FileName="Assets/HexGrid.cs" />
+      <File FileName="Assets/HexCoordinates.cs" />
+      <File FileName="Assets/EdgeVertices.cs" />
+      <File FileName="Assets/HexMapEditor.cs" />
+      <File FileName="Assets/HexMesh.cs" Line="81" Column="1" />
+      <File FileName="Assets/HexMetrics.cs" Line="46" Column="1" />
+      <File FileName="Assets/HexDirection.cs" Line="37" Column="3" />
+      <File FileName="Assets/River.shader" Line="65" Column="1" />
+      <File FileName="Assets/VertexColors.shader" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hex_map5的副本" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="HexMetrics.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="838ad5d3-5ea0-4fff-9927-b32d513b74f3" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
