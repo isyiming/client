@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{F96A1C28-D002-E7AB-A056-E82D1D91572D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HexGridChunk.cs">
+    <Files>
+      <File FileName="Assets/HexGridChunk.cs" Line="284" Column="70" IsPinned="True" />
+      <File FileName="Assets/HexCell.cs" Line="407" Column="30" />
+      <File FileName="Assets/HexMapEditor.cs" Line="102" Column="1" />
+      <File FileName="Assets/HexGrid.cs" Line="149" Column="28" />
+      <File FileName="Assets/HexMetrics.cs" Line="56" Column="1" />
+      <File FileName="Assets/HexMesh.cs" Line="33" Column="1" />
+      <File FileName="Assets/Texture/Water.shader" Line="49" Column="27" />
+      <File FileName="Assets/Texture/WaterShore.shader" />
+      <File FileName="Assets/Texture/Road.shader" Line="48" Column="4" />
+      <File FileName="Assets/HexCoordinates.cs" />
+      <File FileName="Assets/Texture/River.shader" Line="65" Column="25" />
+      <File FileName="Assets/Texture/Estuaries.shader" Line="77" Column="1" />
+      <File FileName="Assets/EdgeVertices.cs" Line="1" Column="1" />
+      <File FileName="Assets/HexCoordinatesDrawer.cs" Line="1" Column="1" />
+      <File FileName="Assets/HexEdgeType.cs" Line="1" Column="1" />
+      <File FileName="Assets/HexMapCamera.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hex_map8" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Texture" expanded="True" />
+              <Node name="HexGridChunk.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7fbe3758-ff3c-4a77-8fd0-18d15e8cbb2c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
