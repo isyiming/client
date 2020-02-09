@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{30E8BCE5-2B02-EB2A-4AAE-147D0D17428E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HexMapEditor.cs">
+    <Files>
+      <File FileName="Assets/HexGridChunk.cs" Line="95" Column="30" />
+      <File FileName="Assets/HexFeatureManager.cs" Line="67" Column="25" />
+      <File FileName="Assets/HexDirection.cs" Line="1" Column="1" />
+      <File FileName="Assets/HexMapEditor.cs" Line="121" Column="30" />
+      <File FileName="Assets/HexMetrics.cs" Line="54" Column="1" />
+      <File FileName="Assets/HexHash.cs" Line="15" Column="34" />
+      <File FileName="Assets/HexFeatureCollection.cs" Line="13" Column="2" />
+      <File FileName="Assets/HexCell.cs" Line="493" Column="20" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hex_map9" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Texture" expanded="True" />
+              <Node name="HexMapEditor.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="98ed70f5-26af-456a-a826-e69968eaca17" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

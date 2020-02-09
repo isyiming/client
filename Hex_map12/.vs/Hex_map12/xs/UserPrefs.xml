@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{7E776C70-BE69-A2CF-8DBC-DEB8E0AB984A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HexCell.cs">
+    <Files>
+      <File FileName="Assets/HexMetrics.cs" Line="70" Column="36" />
+      <File FileName="Assets/HexGrid.cs" Line="215" Column="10" />
+      <File FileName="Assets/HexCell.cs" Line="78" Column="13" />
+      <File FileName="Assets/HexMapEditor.cs" Line="264" Column="25" />
+      <File FileName="Assets/HexGridChunk.cs" Line="107" Column="1" />
+      <File FileName="Assets/TextureArrayWizard.cs" Line="37" Column="37" />
+      <File FileName="Assets/Texture/Terrain.shader" Line="42" Column="1" />
+      <File FileName="Assets/HexMesh.cs" Line="179" Column="25" />
+      <File FileName="Assets/EdgeVertices.cs" Line="1" Column="1" />
+      <File FileName="Assets/HexCoordinates.cs" Line="1" Column="1" />
+      <File FileName="Assets/HexCoordinatesDrawer.cs" Line="1" Column="1" />
+      <File FileName="Assets/HexDirection.cs" Line="1" Column="1" />
+      <File FileName="Assets/HexFeatureCollection.cs" Line="1" Column="1" />
+      <File FileName="Assets/HexHash.cs" Line="1" Column="1" />
+      <File FileName="Assets/HexEdgeType.cs" Line="1" Column="1" />
+      <File FileName="Assets/Texture/VertexColors.shader" Line="13" Column="12" />
+      <File FileName="Assets/Texture/Road.shader" Line="1" Column="1" />
+      <File FileName="Assets/Texture/Water.shader" Line="1" Column="1" />
+      <File FileName="Assets/HexMapCamera.cs" Line="83" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hex_map12" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Texture" expanded="True" />
+              <Node name="HexCell.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c21d4e24-55b0-4488-abc4-3427da715c02" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
